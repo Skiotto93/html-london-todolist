@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    padding:  10px 20px;
+    background-color: white;
+}
+
+.container {
+    background: grey;
+    max-width: 800px;
+    margin: auto;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.circle-check {
+    color: green;
+    border-color: green;
+}
+
+.circle-cross {
+    color: red;
+    border-color: red;
+}
+
